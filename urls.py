@@ -6,8 +6,11 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-     url(r'^home$', 'medhealth.views.get_home_page'),
-     url(r'^blog$', 'medhealth.views.get_blog_page'),
+     url(r'^home$', 'Medical-Health.views.get_home_page'),
+     url(r'^questions$', 'Medical-Health.views.get_questions_page'),
+     url(r'^pathlabs$', 'Medical-Health.views.get_pathlabs_page'),
+     url(r'^about$', 'Medical-Health.views.get_about_page'),
+     url(r'^contact$', 'Medical-Health.views.get_contact_page'),
     # url(r'^medhealth/', include('medhealth.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
